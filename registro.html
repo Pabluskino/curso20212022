@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="sass/custom.css">
+    <style>
+        html,
+        body,
+        .container-fluid {
+            height: 100%;
+        }
+
+        .alto {
+            height: 80%;
+        }
+
+        .fondo {
+            background-image: url(img/niños3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-12 mt-2">
+                <div class="alert bg-secondary text-center" role="alert">
+                    <h3><strong class="text-white">Bienvenido</strong></h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario e informacion -->
+        <div class="row alto d-flex justify-content-lg-around align-items-center fondo">
+            <!-- Formulario -->
+            <div class="col-12 col-lg-5 order-lg-1 bg-white rounded p-4">
+                <form id="formulario">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp"
+                            placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Apellidos">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-primary col-12 bg-secondary">Acceder</button>
+                    <p class="mt-4 text-dark">Al hacer clic en el botón, acepta nuestros términos y servicios</p>
+                </form>
+            </div>
+            <!-- Información -->
+            <div class="col-12 col-lg-5 order-lg-0">
+                <div class="row">
+                    <div class="col-lg-12 text-white">
+                        <h1>Formulario sociológico</h1>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12 text-white">
+                        <p>Rellenando este formulario ayudarás a que la clase funcione mejor
+                            y a crear nuevos vínculos entre los alumnos que más dificultad tengan
+                            a la hora de socializar con los demás.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="alert bg-secondary text-center p-4" role="alert">
+                    <i class="bi bi-whatsapp text-white m-2"></i>
+                    <i class="bi bi-twitch text-white m-2"></i>
+                    <i class="bi bi-twitter text-white m-2"></i>
+                    <i class="bi bi-snapchat text-white m-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
