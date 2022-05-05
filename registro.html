@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="sass/custom.css">
     <style>
+        body{
+            background-image: url(https://thumbs.dreamstime.com/b/fondo-para-el-dise%C3%B1o-gr%C3%A1fico-forma-del-modelo-al-azar-movimiento-web-y-color-113807045.jpg);
+        }
         html,
         body,
         .container-fluid {
@@ -34,8 +37,8 @@
         <!-- Header -->
         <div class="row">
             <div class="col-12 mt-2">
-                <div class="alert bg-secondary text-center" role="alert">
-                    <h3><strong class="text-white">Bienvenido</strong></h1>
+                <div class="alert bg-secondary text-center p-0" role="alert">
+                    <h1 id="encabezado"><strong class="text-white">Bienvenido</strong></h1>
                 </div>
             </div>
         </div>
@@ -43,7 +46,7 @@
         <!-- Formulario e informacion -->
         <div class="row alto d-flex justify-content-lg-around align-items-center fondo">
             <!-- Formulario -->
-            <div class="col-12 col-lg-5 order-lg-1 bg-white rounded p-4">
+            <div class="col-12 col-lg-5 order-lg-1 bg-white rounded p-4 form">
                 <form id="formulario">
                     <div class="mb-3">
                         <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp"
@@ -53,9 +56,9 @@
                         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Apellidos">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                     </div>
-                    <button type="submit" class="btn btn-primary col-12 bg-secondary">Acceder</button>
+                    <button type="submit" class="btn btn-primary col-12 bg-secondary border">Acceder</button>
                     <p class="mt-4 text-dark">Al hacer clic en el botón, acepta nuestros términos y servicios</p>
                 </form>
             </div>
@@ -63,12 +66,12 @@
             <div class="col-12 col-lg-5 order-lg-0">
                 <div class="row">
                     <div class="col-lg-12 text-white">
-                        <h1>Formulario sociológico</h1>
+                        <h1 id="título">Formulario sociológico</h1>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-12 text-white">
-                        <p>Rellenando este formulario ayudarás a que la clase funcione mejor
+                        <p id="descripción">Rellenando este formulario ayudarás a que la clase funcione mejor
                             y a crear nuevos vínculos entre los alumnos que más dificultad tengan
                             a la hora de socializar con los demás.
                         </p>
